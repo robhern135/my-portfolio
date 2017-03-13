@@ -1,3 +1,7 @@
+$( document ).ready(function() {
+    console.log( "ready!" );
+});
+
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
@@ -9,6 +13,8 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
+
+/*  RESPONSIVE PORTFOLIO BOXES */
 
 var portfolio = {
   "projects" : [{
@@ -55,5 +61,3 @@ portfolio.display = function() {
 }; //end of function
 
 portfolio.display() ;
-
-
