@@ -119,11 +119,12 @@ header h2 {
 #icon {
 	max-width: 200px;
 	border-radius: 50%;
+  margin-left: 20px;
 }
 
 
 #project-container {
-	margin-top: 30px;
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -144,19 +145,33 @@ header h2 {
   width: 50%;
 }
 
+#nav-opener {
+	margin-top: 20px;
+	margin-left: 10px;
+    font-size: 30px;
+    position: fixed;
+}
+
+#nav-opener:hover {
+	color: #94a4b1;
+	cursor: pointer;
+}
+
 .project-box {
-	width: calc((100% - 32px)/3);
+	width: calc((100% - 80px)/2);
 	height: auto;
-	margin: 0 4px;
+	margin: 0 20px;
 	background-color: #7C898B;
 	text-align: center;
-	padding: 10px 0;
-	margin-bottom: 6px;
+	padding: 20px 10px;
+	margin-bottom: 40px;
+  border-radius: 5%;
 }
 
 .project-box a {
 	color: #4C443C;
 	text-transform: uppercase;
+  margin: 10px;
 }
 
 .project-box img {
@@ -165,6 +180,7 @@ header h2 {
 
 .project-box h3 {
 	font-size: 30px;
+  margin: 5px 0;
 }
 
 .project-box h4 {
@@ -213,6 +229,15 @@ header h2 {
     width: calc((100% - 32px)/2);
     margin: 0 6px;
     margin-bottom: 12px;
+  }
+  #nav-opener {
+  	background-color: rgba(147, 163, 177, .5);
+    font-size: 40px;
+    margin-left: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 0;
+    padding-bottom: 4px;
   }
 }
 
