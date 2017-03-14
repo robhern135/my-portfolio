@@ -1,23 +1,33 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
+//rollovers for icons
 
-/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
+// ROLLOVER DESCRIPTOR FOR SOFTWARE IMAGES
+  $(".feature").mouseover((eventobj) => {
+    //grabs .iconimg and sets the following eventobj
+    //to occur on mouseover
 
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-}
+    $("#created-using").html(eventobj.target.alt)
+      //grabs p tag and changes innerhtml to the
+      //eventobj, what the element itself is, and the
+      //alt tag of that element 
+  })
+
+  $(".feature").mouseleave(()=>{
+
+    $("#created-using").html("")
+    //mouseing off of the same, setting
+    //to empty string
+  })
+
+
+//responsive Job title info
 
 var bio = {
     "jobtitle" : "Junior Front End Web Developer"
+};
 
-}
 $("#jobtitle").html(bio.jobtitle);
 
 
@@ -25,36 +35,35 @@ $("#jobtitle").html(bio.jobtitle);
 
 var portfolio = {
   "projects": [{
-        "mainimg": "img/jack2_small.jpg",
+        "mainimg": "img/jack1_small.jpg",
+        "rollimg" : "img/jack2_small.jpg",
         "name": "3D Artist Site",
         "for": "Jack Mudge",
         "morelink": "jackmudge.html",
-        "extlink": "http://robhern135.github.io/Jack-Mudge"
+        "extlink": "http://robhern135.github.io/Jack-Mudge",
+        "alttxt" : "Jack Mudge 3D Artist"
     }, {
         "mainimg": "img/resume1_small.png",
-        "name": "TEST TEST TEST",
+        "rollimg" : "img/resume2_small.png",
+        "name": "Responsive Resume",
         "for": "Udacity Nanodegree",
         "morelink": "responsiveresume.html",
         "extlink": "http://robhern135.github.io/responsive-resume"
     }, {
         "mainimg": "http://placekitten.com/1000/500",
+        "rollimg" : "http://placekitten.com/999/500",
         "name": "TEST TEST TEST",
         "for": "TEST",
         "morelink": "http://google.com",
         "extlink": "http://google.co.uk"
     }]
-}
+};
 
 var HTMLprojectStart = '<div class="project-box"></div>';
-var HTMLprojectMainImg = '<img src="%data%" />';
-//replace with:
-//<img src="img/jack1_small.jpg"
-//      onmouseover="this.src='img/jack2_small.jpg'"
-//      onmouseout="this.src='img/jack1_small.jpg'" 
-//      alt ="Jack Mudge - 3D Artist Portfolio Site"/>
+var HTMLprojectMainImg = '<img src="%data%" onmouseover="this.src=\'%dataroll%\'" onmouseout="this.src=\'%datamain%\'" alt ="%alttxt%"/>';
 var HTMLprojectName = '<h3>%data%</h3>';
 var HTMLprojectFor = '<h4 class="handwritten">%data%</h4>';
-var HTMLprojectMorelink = '<p><a href="%data%">Learn More</a>  |  ';
+var HTMLprojectMorelink = '<p><a href="%data%">See More</a>  |  ';
 var HTMLprojectExtlink = '<a href="%data%">View</a></p>';
 
 
@@ -62,7 +71,7 @@ portfolio.display = function() {
 
   for (var p = 0; p < portfolio.projects.length; p++) {
     $("#project-container").append(HTMLprojectStart);
-    var formattedprojectMainImg = HTMLprojectMainImg.replace("%data%", portfolio.projects[p].mainimg);
+    var formattedprojectMainImg = HTMLprojectMainImg.replace("%data%", portfolio.projects[p].mainimg).replace("%dataroll%",portfolio.projects[p].rollimg).replace("%alttxt%", portfolio.projects[p].alttxt).replace('%datamain%', portfolio.projects[p].mainimg);
     $(".project-box:last").append(formattedprojectMainImg);
     var formattedprojectName = HTMLprojectName.replace("%data%", portfolio.projects[p].name);
     $(".project-box:last").append(formattedprojectName);
@@ -77,4 +86,7 @@ portfolio.display = function() {
 
 portfolio.display() ;
 
+
+
+// PUT EVERYTHING ABOVE HERE
 });
