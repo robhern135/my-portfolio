@@ -18,6 +18,13 @@ img {
 	max-width: 100%;
 }
 
+#comingsoon {
+  width: 100%;
+  text-align: center;
+  font-size: 70px;
+  margin-top: 50px;
+}
+
 /*------------ The side navigation menu -----------------*/
 .sidenav {
     height: 100%; /* 100% Full-height */
@@ -297,6 +304,45 @@ header h2 {
   }
 }
 
+.highlights_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.lefttext {
+  text-align: right;
+  width: 40%;
+  float: right;
+  padding-right: 10px;
+}
+
+.righttext {
+  text-align: left;
+  width: 40%;
+  float: left;
+  padding-left: 10px;
+}
+
+.rightgif {
+  width: 60%;
+}
+
+.rightgif img {
+  float: right;
+}
+
+.leftgif {
+  width: 60%;
+}
+
+code {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
 @media only screen and (max-width: 510px) {
   .project-box {
     width: calc(100% - 12px);

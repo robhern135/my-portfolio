@@ -52,10 +52,10 @@ var portfolio = {
     }, {
         "mainimg": "http://placekitten.com/1000/500",
         "rollimg" : "http://placekitten.com/999/500",
-        "name": "TEST TEST TEST",
-        "for": "TEST",
-        "morelink": "http://google.com",
-        "extlink": "http://google.co.uk"
+        "name": "Prototype",
+        "for": "Video Production Company",
+        "morelink": "videoprototype.html",
+        "extlink": "http://robhern135.github.io/productionprototype"
     }]
 };
 
