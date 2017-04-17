@@ -341,7 +341,8 @@ h4, {
 
 #about-info-container {
   width: 50%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 25px 40px 25px;
 }
 
