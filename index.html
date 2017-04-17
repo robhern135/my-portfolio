@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rob Hern - Front End Web Developer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/gallery.js"></script>
+  <script src="http://imakewebthings.github.com/jquery-waypoints/waypoints.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/gallerystyle.css"/>
+  <link rel="stylesheet" href="css/gallerystyle2.css"/>
+  <link rel="stylesheet" href="css/responsivestyle.css"/>
+  <link rel="stylesheet" href="fonts/pe-icon-social/css/pe-icon-social.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fonts/ow/css/styles.min.css"/>
+  <meta name="description" content="Rob Hern's Portfolio. Junior Front-End Web Developer in London, England">
+  <meta property="og:title" content="Rob Hern. Junior Front-End Web Developer. London, England.">
+  <meta property="og:image" content="share.png">
+  <meta property="site_name" content="Rob Hern | Junior Front End Web Developer">
+  <meta name="twitter:site" content="@robhern">
+</head>
+
+<body>
+
+<nav class="topnav" id="myTopnav">
+  <a href="#home">
+    <p class="firstnav">Rob Hern</p>
+    <p class="secondnav poppins">RH</p>
+  </a>
+  <a href="#home">
+    <p class="firstnav">Home</p>
+    <p class="secondnav fa fa-home"></p>
+  </a>
+  <a href="#portfolio">
+    <p class="firstnav">Portfolio</p>
+    <p class="secondnav fa fa-file-code-o"></p>
+  </a>
+  <a href="#contact">
+    <p class="firstnav">Contact</p>
+    <p class="secondnav fa fa-envelope-o"></p>
+  </a>
+  <a href="#about">
+    <p class="firstnav">About</p>
+    <p class="secondnav fa fa-user"></p>
+  </a>
+</nav>
+
+<div id="home" class="slide">
+      <div id="headings-section">
+        <h1 class="highlight-text">Rob Hern</h1>
+        <h2 id="jobtitle">Junior Front End Web Developer</h2>
+        <p>I am a Junior Front End Web Developer based in Essex & London. I enjoy building sites with responsive design and sleek user experiences with a focus on the site's content.</p>
+        <p>Please check out my <a href="#portfolio" class="highlight-text">Portfolio</a>, and feel free to <a class="highlight-text" href="#contact">get in touch</a> if you like what you see!</p>
+      </div>
+</div>
+
+<div id="portfolio" class="slide">
+  <div id="project-container">
+    <div class="project-box"><!--      START PORTFOLIO PIECE    -->
+      <div class="imgbox">
+        <div class="ism-slider" data-play_type="loop" data-radio_type="thumbnail" id="my-slider">
+        <ol>
+          <li>
+            <img src="img/jacksite/desktop.png" alt="Desktop View">
+          </li>
+          <li>
+            <img src="img/jacksite/mobile.png" alt="Mobile View">
+          </li>
+          <li>
+            <img src="img/jacksite/tablet.png" alt="Tablet View">
+
+          </li>
+        </ol>
+        </div><!--end of gallery-->
+      </div><!--end of imgbox-->
+      <div class="aboutbox">
+        <h3 class="poppins"><a target="_blank" href="http://jackmudge.co.uk">Artist Portfolio Site</a></h3>
+        <h4 class="poppins"><a target="_blank" href="https://www.linkedin.com/in/jackmudge">Jack Mudge</a></h4>
+        <p class="portfolio-desc">A fully responsive Artist's Portfolio website utilising Bootstrap and jQuery to show off skills and finished pieces.</p>
+        <div class="list-container">
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Javascript 5</li>
+          <li>jQuery</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+          <li>Modals</li>
+          <li>Rollovers</li>
+          <li>JSON</li>
+        </ul>
+        </div><!--end of list-container-->
+      </div><!--end of aboutbox-->
+      </div><!-- end of project-box -->
+  </div><!--end of project-container-->
+    <p id="moresoon">More Coming Soon</p>
+  <hr><!--  END OF INDIVIDUAL PORTFOLIO PIECE  -->
+
+
+</div><!--end of portfolio-->
+
+<div id="contact" class="slide">
+  <div id="email" class="contact-slide"><a href= "mailto:robertjhern@gmail.com"><li class="fa fa-envelope-o"></li>
+  <p>RobertJHern@gmail.com</p></a></div>
+  <div id="github" class="contact-slide"><a target="_blank" href= "http://github.com/robhern135"><li class="pe-so-github"></li><p>github.com/RobHern135</p></a></div>
+  <div id="linkedin" class="contact-slide"><a target="_blank" href= "https://www.linkedin.com/in/roberthern"><li class="pe-so-linkedin"></li><p>/in/RobertHern</p></a></div>
+  <div id="twitter" class="contact-slide"><a target="_blank" href= "http://twitter.com/robhern"><li class="pe-so-twitter"></li><p>@RobHern</p></a></div>
+</div>
+
+<div id="about" class="slide">
+  <div id="skills-container">
+    <h3 id="bar-trigger">Skills</h3>
+    <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
+        <p class="skill-identifier">HTML5</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div><!--end of skills-box-->
+    </div>
+
+    <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
+        <p class="skill-identifier">CSS3</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div>
+    </div><!--end of skills-box-->
+
+    <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="70">
+        <p class="skill-identifier">Javascript</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div>
+    </div><!--end of skills-box-->
+
+    <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="70">
+        <p class="skill-identifier">jQuery</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div>
+    </div><!--end of skills-box-->
+
+    <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
+        <p class="skill-identifier">Responsive Design</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div><!--end of skills-box-->
+
+      <div id="skills-box"><!-- start bar -->
+      <div class="progress-wrap progress skills-wrap" data-progress-percent="60">
+        <p class="skill-identifier">Bootstrap</p>
+        <div class="progress-bar progress skills-bar"></div>
+      </div><!--end of skills-box-->
+
+      
+    </div>
+    </div>
+  </div><!--end of skills-container-->
+
+  <div id="info-container">
+    <h2>2017 Goals</h2>
+    <div class="info-box">
+      <p class="info-description">Bullseyes Hit</p>
+      <p class="info-icon"><i class="fa fa-bullseye" aria-hidden="true"></i></p>
+      <p class="info-total">5</p>
+      <p class="info-goal">Goal: 25</p>
+      <div class="progress-wrap progress" data-progress-percent="20">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p class="info-description">Films Watched</p>
+      <p class="info-icon"><i class="fa fa-film" aria-hidden="true"></i></p>
+      <p class="info-total">10</p>
+      <p class="info-goal">Goal: 40</p>
+      <div class="progress-wrap progress" data-progress-percent="25">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p class="info-description">New Dishes Cooked</p>
+      <p class="info-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></p>
+      <p class="info-total">5</p>
+      <p class="info-goal">Goal: 25</p>
+      <div class="progress-wrap progress" data-progress-percent="20">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p class="info-description">Websites Made</p>
+      <p class="info-icon"><i class="fa fa-file-text" aria-hidden="true"></i></p>
+      <p class="info-total">7</p>
+      <p class="info-goal">Goal: 40</p>
+      <div class="progress-wrap progress" data-progress-percent="17.5">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p class="info-description">New Cities Visited</p>
+      <p class="info-icon"><i class="fa fa-map-o" aria-hidden="true"></i></p>
+      <p class="info-total">0</p>
+      <p class="info-goal">Goal: 2</p>
+      <div class="progress-wrap progress" data-progress-percent="0">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <p class="info-description">Live Events</p>
+      <p class="info-icon"><i class="fa fa-ticket" aria-hidden="true"></i></p>
+      <p class="info-total">3</p>
+      <p class="info-goal">Goal: 15</p>
+      <div class="progress-wrap progress" data-progress-percent="20">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div><!-- END OF INFO BOX-->
+
+    <div class="info-box">
+      <p class="info-description">Languages Learned</p>
+      <p class="info-icon"><i class="fa fa-file-code-o" aria-hidden="true"></i></p>
+      <p class="info-total">4</p>
+      <p class="info-goal">Goal: 5</p>
+      <div class="progress-wrap progress" data-progress-percent="80">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div><!-- END OF INFO BOX-->
+
+    <div class="info-box">
+      <p class="info-description">Drag Race Episodes Watched</p>
+      <p class="info-icon"><i class="fa fa-female" aria-hidden="true"></i></p>
+      <p class="info-total">50</p>
+      <p class="info-goal">Goal: 96</p>
+      <div class="progress-wrap progress" data-progress-percent="63">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div><!-- END OF INFO BOX-->
+
+    <div class="info-box">
+      <p class="info-description">Overwatch Level Attained</p>
+      <p class="info-icon"><i class="icons8-overwatch"></i></p>
+      <p class="info-total">218</p>
+      <p class="info-goal">Goal: 300</p>
+      <div class="progress-wrap progress" data-progress-percent="72">
+        <div class="progress-bar progress"></div>
+      </div>
+    </div><!-- END OF INFO BOX-->
+  </div><!--end of info-container-->
+</div><!--end of #about-->
+
+</body>
+
+</html>

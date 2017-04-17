@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Raleway');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: underline;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+img,
+picture,
+video {
+	max-width: 100%;
+}
+
+p {
+  font-size: 20px;
+}
+
+.highlight-text {
+  color: #00cc99;
+}
+
+.highlightbg {
+  background-color: #00cc99;
+}
+
+#home {
+  background-image: url("../img/slide1.jpg");
+  background-position: relative;
+  background-size: cover;
+}
+
+#portfolio {
+  background-color: #fff;
+  background-size: cover;
+  color: black;
+  height: auto;
+}
+
+#contact {
+  background-image: url("../img/contactslide2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-slide{
+  width: 25%;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+}
+
+.contact-slide:hover {
+  background-color: rgba(0,0,0,0.3);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.contact-slide li {
+  list-style: none;
+  padding-top: 30vh;
+  font-size: 100px;
+}
+
+.contact-slide p {
+  margin-top: 35px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-slide a {
+  text-decoration: none;
+}
+
+.contact-slide a:hover {
+  color: #00cc99;
+}
+
+.slide {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#headings-section {
+  text-align: center;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+/*NAVBAR*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgba(51,51,51,0.5);
+    overflow: hidden;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #00cc99;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav a:first-child {
+  background-color: black;
+  text-decoration: none;
+}
+
+.topnav a:first-child:hover {
+  background-color: black;
+  color: #00cc99;
+  text-decoration: none;
+}
+
+.secondnav {
+  display: none;
+}
+
+
+.secondnav.fa {
+  display: none;
+}
+
+.firstnav {
+  display: inline;
+}
+
+
+/*    END OF NAV    */
+
+h1 {
+  font-size: 80px;
+}
+
+h1,
+h2,
+h3,
+h4, {
+  font-family: 'Poppins', sans-serif;
+}
+
+#jobtitle {
+  margin: 5px 0;
+  font-size: 26px;
+}
+
+#headings-section p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/*    PORTFOLIO PIECES    */
+
+#home, #contact, #about {
+  padding-top: 35px;
+  height: auto;
+  min-height: 100vh;
+}
+
+.project-box {
+  padding-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+#project-container {
+  padding-bottom: 50px;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-box a {
+  color: black;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.imgbox {
+  align-content: center;
+  width: 50%;
+}
+
+.aboutbox {
+  padding-top: 60px;
+  width: 50%;
+  text-align: center;
+}
+
+.aboutbox h3 {
+  font-size: 45px;
+  margin: 5px;
+}
+
+.aboutbox h3,
+.aboutbox h4,
+.aboutbox p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.aboutbox a:hover {
+  color: #00cc99;
+}
+
+.list-container {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.skills-list {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.skills-list li {
+  display: inline;
+  padding: 5px 7px;
+  background-color: #00cc99 ;
+  color: white;
+  margin: 4px;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.portfolio-desc {
+  width: 80%;
+  margin: 20px auto;
+  color: #464646;
+  font-size: 16px;
+}
+
+.vertical {
+  width: 1px;
+  height: 20px;
+  display: inline-block;
+}
+
+#about {
+  background-image: url("../img/aboutslide.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+}
+
+#about h3 {
+  font-size: 40px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#about h2 {
+  font-size: 40px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(255,255,255,0.5);
+}
+
+/*    INFO BOX */
+
+#info-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+#skills-container {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.info-box {
+  padding-top: 20px;
+  text-align: center;
+  width: 20%;
+  height: auto;
+  background-color: rgba(255,255,255,0.5);
+}
+
+.info-box:hover {
+  background-color: rgba(255,255,255,0.75);
+}
+
+.info-description {
+  min-height: 50px;
+}
+
+.info-icon {
+  font-size: 100px;
+  padding: 5px;
+}
+
+.info-total {
+  font-size: 30px;
+}
+
+.info-goal {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* PROGRESS BAR */
+
+.progress {
+  width: 100%;
+  height: 5px;
+}
+
+.progress-wrap {
+  height: 5px;
+  background: #00cc99;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-wrap:hover {
+  background-color: rgba(0, 204, 153, 0.5)
+}
+
+.progress-bar {
+  background: #ddd;
+  position: absolute;
+}
+
+/*  SKILLS BARS  */
+
+.skills-wrap {
+  height: 40px;
+  border: 1px solid #fff;
+}
+
+.skills-bar {
+  width: 100%;
+  height: 40px;
+}
+
+.skill-identifier {
+  padding: 7px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+hr {
+  color: black;
+  margin: auto;
+  width: 85%;
+  margin-bottom: 40px;
+}
+
+#moresoon {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
