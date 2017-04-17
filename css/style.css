@@ -448,3 +448,10 @@ hr {
 .black {
   color: black;
 }
+
+footer {
+  padding: 20px 0;
+  width: 100vw;
+  text-align: center;
+  font-size: 15px;
+}
