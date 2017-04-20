@@ -127,10 +127,12 @@
   }
   #home,
   #portfolio,
-  #contact {
+  #contact,
+  #about {
   	min-height: 100vh;
   	height: auto;
   	padding-bottom: 20px;
+    background-size: 100% cover;
   }
   #portfolio h3 {
     font-size: 40px;
@@ -158,5 +160,10 @@
   }
   .info-box {
     width: 100%;
+  }
+  #about-info-container,
+  #skills-container {
+    width: 100%;
+    text-align: center;
   }
 }
