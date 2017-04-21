@@ -120,14 +120,20 @@
   #about {
     background-image: url("../img/mobileabout.jpg");
       background-attachment: scroll;
+      background-size: auto;
+      background-position: center;
   }
   #contact {
     background-image: url("../img/mobilecontact.jpg");
       background-attachment: scroll;
+      background-size: auto cover;
+      background-position: center;
   }
   #home {
     background-image: url("../img/mobilehome.jpg");
       background-attachment: scroll;
+      background-size: auto;
+      background-position: center;
   }
 }
 
