@@ -45,6 +45,23 @@ p {
   background-color: #00cc99;
 }
 
+#home:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(../img/hoeslide.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 #home {
   background-image: url("../img/homeslide.jpg");
   background-position: relative;
