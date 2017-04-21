@@ -177,15 +177,15 @@
   }
   #about {
     background-image: url("../img/mobileabout.jpg");
-      background-size: cover;
+      background-attachment: scroll;
   }
   #contact {
     background-image: url("../img/mobilecontact.jpg");
-      background-size: cover;
+      background-attachment: scroll;
   }
   #home {
     background-image: url("../img/mobilehome.jpg");
-      background-size: cover;
+      background-attachment: scroll;
   }
   .info-box {
     width: 100%;
