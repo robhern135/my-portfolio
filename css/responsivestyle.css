@@ -107,7 +107,7 @@
 }
 
 /* fix phone backgrounds */
-@media only screen and (max-width: 500) and (min-width: 100px) {
+@media only screen and (max-width: 500px) {
   #home {
     background-image: url("../img/mobilehome.jpg");
   }
@@ -148,7 +148,6 @@
   	min-height: 100vh;
   	height: auto;
   	padding-bottom: 20px;
-    background-size: 100% cover;
   }
   #portfolio h3 {
     font-size: 40px;
