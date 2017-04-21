@@ -46,7 +46,7 @@ p {
 }
 
 #home {
-  background-image: url("../img/slide1.jpg");
+  background-image: url("../img/homeslide.jpg");
   background-position: relative;
   background-size: cover;
 }
@@ -59,11 +59,20 @@ p {
 }
 
 #contact {
-  background-image: url("../img/contactslide2.jpg");
+  background-image: url("../img/contactslide.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
 }
+
+#about {
+  background-image: url("../img/aboutslide.jpg");
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  color: #000;
+}
+
 
 .contact-slide{
   min-height: 50vh;
@@ -298,13 +307,6 @@ h4, {
   display: inline-block;
 }
 
-#about {
-  background-image: url("../img/aboutslide.jpg");
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-  color: #000;
-}
 
 #about h3 {
   font-size: 40px;

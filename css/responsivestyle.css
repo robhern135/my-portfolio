@@ -98,11 +98,27 @@
   }
 }
 
+
+
 @media only screen and (max-width: 599px) and (min-width: 419px) {
   .contact-slide p {
     font-size: 15px;
   }
 }
+
+/* fix phone backgrounds */
+@media only screen and (max-width: 500) and (min-width: 100px) {
+  #home {
+    background-image: url("../img/mobilehome.jpg");
+  }
+  #contact {
+    background-image: url("../img/mobilecontact.jpg");
+  }
+  #about {
+    background-image: url("../img/mobileabout.jpg");
+  }
+}
+
 
 /*PHONE SIZE*/
 @media only screen and (max-width: 420px) {
