@@ -48,8 +48,9 @@ p {
 
 #home {
   background-image: url("../img/homeslide.jpg");
-  background-position: relative;
   background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
 }
 
 #portfolio {
