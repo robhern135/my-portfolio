@@ -1,3 +1,15 @@
+    /* styles for MacBook Pro-sized screens and larger */
+@media only screen and (min-width: 1440px) {
+  #about {
+      background-image: url("../img/aboutslidebig.jpg");
+  }
+  #contact {
+      background-image: url("../img/contactslidebig.jpg");
+  }
+  #home {
+      background-image: url("../img/homeslidebig.jpg");
+  }
+}
 /* overlapping contact text*/
 
 @media only screen and (max-width: 1032px) and (min-width: 801px) {
@@ -96,6 +108,11 @@
   .info-box {
     width: 33.33%;
   }
+  #about-info-container,
+  #skills-container {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 
@@ -103,28 +120,6 @@
 @media only screen and (max-width: 599px) and (min-width: 419px) {
   .contact-slide p {
     font-size: 15px;
-  }
-}
-
-/* fix phone backgrounds */
-@media only screen and (max-width: 500px) {
-  #home {
-    background-image:
-        -webkit-image-set (
-            url("/img/mobilehome2.jpg") 1x,
-            url("/img/mobilehome.jpg") 2x );
-  }
-  #contact {
-    background-image:        
-    -webkit-image-set (
-            url("/img/mobilecontact2.jpg") 1x,
-            url("/img/mobilecontact.jpg") 2x );
-  }
-  #about {
-    background-image:
-    -webkit-image-set (
-        url("/img/mobileabout2.jpg") 1x,
-        url("/img/mobileabout.jpg") 2x );
   }
 }
 
@@ -138,7 +133,7 @@
     padding: 10px 0;
   }
   #home h1 {
-    font-size: 60px;
+    font-size: 50px;
   }
   #home h2 {
     font-size: 25px;
@@ -180,14 +175,19 @@
   .contact-slide li {
   	font-size: font-size: 50px;
   }
-    #about {
+  #about {
+    background-image: url("../img/mobileabout.jpg");
+      background-size: cover;
+  }
+  #contact {
+    background-image: url("../img/mobilecontact.jpg");
+      background-size: cover;
+  }
+  #home {
+    background-image: url("../img/mobilehome copy.jpg");
+      background-size: cover;
   }
   .info-box {
     width: 100%;
-  }
-  #about-info-container,
-  #skills-container {
-    width: 100%;
-    text-align: center;
   }
 }
