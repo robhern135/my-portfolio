@@ -116,6 +116,21 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+  #about {
+    background-image: url("../img/mobileabout.jpg");
+      background-attachment: scroll;
+  }
+  #contact {
+    background-image: url("../img/mobilecontact.jpg");
+      background-attachment: scroll;
+  }
+  #home {
+    background-image: url("../img/mobilehome.jpg");
+      background-attachment: scroll;
+  }
+}
+
 
 @media only screen and (max-width: 599px) and (min-width: 419px) {
   .contact-slide p {
@@ -174,18 +189,6 @@
   }
   .contact-slide li {
   	font-size: font-size: 50px;
-  }
-  #about {
-    background-image: url("../img/mobileabout.jpg");
-      background-attachment: scroll;
-  }
-  #contact {
-    background-image: url("../img/mobilecontact.jpg");
-      background-attachment: scroll;
-  }
-  #home {
-    background-image: url("../img/mobilehome.jpg");
-      background-attachment: scroll;
   }
   .info-box {
     width: 100%;
