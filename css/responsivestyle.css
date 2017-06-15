@@ -23,7 +23,14 @@
   body {
   	width: 100vw;
   }
+  #contact {
+    background-image: url("../img/contactslide800.jpg");
+  }
+  #about {
+    background-image: url("../img/aboutslide800.jpg");
+  }
   #home {
+  	background-image: url("../img/homeslide800.jpg");
   	height: auto;
   	padding-bottom: 60px;
   	min-height: 100vh;
