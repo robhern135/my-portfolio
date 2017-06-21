@@ -284,105 +284,181 @@ p.ism-badge a.ism-link:hover {
 /* SLIDER */
 
 #my-slider,
-#my-slider2 {
+#my-slider2,
+#my-slider3,
+#myslider-4,
+#myslider-5,
+#myslider-6 {
     width: 100%;
     -webkit-border-radius: 5px; border-radius: 5px; 
 }
 
 #my-slider-ism-badge,
-#my-slider2-ism-badge {
+#my-slider2-ism-badge,
+#my-slider3-ism-badge,
+#myslider-4-ism-badge,
+#myslider-5-ism-badge,
+#myslider-6-ism-badge {
     width: 100%;
 }
 
 #my-slider:before,
-#my-slider2:before {
+#my-slider2:before,
+#my-slider3:before,
+#myslider-4:before,
+#myslider-5:before,
+#myslider-6:before {
     content: ''; display: block; padding-top: 75%;
 }
 
 #my-slider .ism-frame,
-#my-slider2 .ism-frame {
+#my-slider2 .ism-frame,
+#my-slider3 .ism-frame,
+#myslider-4 .ism-frame,
+#myslider-5 .ism-frame,
+#myslider-6 .ism-frame {
     position: absolute; top: 0; bottom: 0; left: 0; width: 100%;
 }
 
 #my-slider .ism-button,
-#my-slider2 .ism-button {
+#my-slider2 .ism-button,
+#my-slider3 .ism-button,
+#myslider-4 .ism-button,
+#myslider-5 .ism-button,
+#myslider-6 .ism-button {
     display: block;
     width: 32px; height: 64px; background-size: 16px 16px; top: 50%; margin-top: -32px;
     color: #fff; background-color: rgba(0, 0, 0, 0.3);
     display: block; visibility: visible;
 }
 
+
+
 #my-slider .ism-button-prev,
-#my-slider2 .ism-button-prev {
+#my-slider2 .ism-button-prev,
+#my-slider3 .ism-button-prev,
+#myslider-4 .ism-button-prev,
+#myslider-5 .ism-button-prev,
+#myslider-6 .ism-button-prev {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEX///////////////////////////////////////////9/gMdvAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABUSURBVEjH7dYxCgAgEAPB8weX/39WFBtBbsFSY2sYyzXicDLq0wQDKQGQAKiJAZTEvC+IRgPBYAEyYOB1AAf4hAkTXxB5nySOGmaRw4pp5rhv34MOQwscJ7/MrxQAAAAASUVORK5CYII=);
     border-radius: 0 32px 32px 0; left: 0;
     left: 0;
 }
 
+
 #my-slider .ism-button-next,
-#my-slider2 .ism-button-next  {
+#my-slider2 .ism-button-next,
+#my-slider3 .ism-button-next,
+#myslider-4 .ism-button-next,
+#myslider-5 .ism-button-next,
+#myslider-6 .ism-button-next  {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAIVBMVEX///////////////////////////////////////////9/gMdvAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAAAuUAAALlARv+XnsAAABYSURBVEjH7dYxDoAwDEPR5Ab1/S8LVEgsyL8SG3XWWK/dnKpnumA0/L4lAOSJE/DEtXfEBBxxBwYFBH8IEWJbggL4RIAAPwFWC+VDqXEtYrFyNWO5v58HB4q9HAkl7KTYAAAAAElFTkSuQmCC);
     border-radius: 32px 0 0 32px; right: 0;
     right: 0;
 }
 
+
 #my-slider .ism-pause-button,
-#my-slider2 .ism-pause-button {
+#my-slider2 .ism-pause-button,
+#my-slider3 .ism-pause-button,
+#myslider-4 .ism-pause-button,
+#myslider-5 .ism-pause-button,
+#myslider-6 .ism-pause-button {
     width: 32px; height: 32px; background-size: 16px 16px; top: 50%; margin-top: -16px; border-radius: 16px; margin-left: -16px;
     color: #fff; background-color: rgba(0, 0, 0, 0.3); background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
 }
 
 #my-slider .ism-pause-button.ism-play,
-#my-slider2 .ism-pause-button.ism-play  {
+#my-slider2 .ism-pause-button.ism-play,
+#my-slider3 .ism-pause-button.ism-play,
+#myslider-4 .ism-pause-button.ism-play,
+#myslider-5 .ism-pause-button.ism-play,
+#myslider-6 .ism-pause-button.ism-play  {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAs6AAALOgFkf1cNAAACy0lEQVR42uWbS2hUVxyHv78PLKKiFgXBiIgvBEVKwZWL4kJrF7oQCSpoAlYkuhCyq4hQ2goqSBFBsNBCoXShbgp15XsTQSGKqKj1QdTYFCVQiuDic5FcGkQhj0nm3vl/6+Ge+X3zO2fumTkXhoi6S51NVtQbapfallVAh//Toc7KLED1jbpPnZJVQMF99fPMAgqOqZ9mFqD6UP06s4CC8+r0MucZN8rX/wJ4pu5VP8nYgIHcU5dna8BAFgM31e8rvUiOoAHvt2FHZgEFf6iTs0yBD/EV0K3uVidkFAAwFTgB3FKXZBRQsBS4q+5XZ2YUUPAtcEVtzioAYBnwm/q7OimjgILNwAt1Z1YBADOAk+ptdUFGAQDRPy0equ213GBVRcBADgOX1Y1ZBQAsB86qP4/0BqqqAgq292+3W7IKAJgNnFI71XkZBRQ5VgBP1DZ1WjYBAzkOXFLXZhUAsBI4p55Qx2cUULAbeKxuyyoAYC7wi3pdnZNRQJHzs/5FslWdmk1AwUTgJ+Ciui6jAACBWcDfGQX0At8A8yPiBsCEROHPA80R0ZNtEXwKtETEmvfDZ2jAIeDHiHjxsRc0ogCBl8DGiOjIdiv8H3AQaBpM+EZrwFVgU0S8zLYd7gLaImL1UMM3QgOOAUcjomu4F6iqgH+AzRFxoRabhCrxlr6/zppqEb5qDbgGbIiI7lpvE8vOc6A9IlbVOnwVGnAS+CEinozWAGUV8BrYGhF/jvZAZZwCh4B5YxG+bA3oBNZHxPOxHLQMDegG9kfEyrEOX4YG/AociIhH9XoD9RLQC7RGxJl6168eU+Aofb/JnSnB9BvTBtwBvhzN7/SyNqAH+C4ilpUt/LAY4lnh0+pCGolBCuhVt9CIDPKhqco8WVrLRfAvYG1EPKjSB1qLRfAVcARYVLXwtZgC5+pxxL3eAq6p/47kaFrVBexRmxolzzsZ+iOF4pXTWQAAAABJRU5ErkJggg==);
 }
 
 #my-slider .ism-button:hover,
-#my-slider2 .ism-button:hover {
+#my-slider2 .ism-button:hover,
+#my-slider3 .ism-button:hover,
+#myslider-4 .ism-button:hover,
+#myslider-5 .ism-button:hover,
+#myslider-6 .ism-button:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 #my-slider .ism-pause-button:hover,
-#my-slider2 .ism-pause-button:hover {
+#my-slider2 .ism-pause-button:hover,
+#my-slider3 .ism-pause-button:hover,
+#myslider-4 .ism-pause-button:hover,
+#myslider-5 .ism-pause-button:hover,
+#myslider-6 .ism-pause-button:hover {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
 #my-slider .ism-radios,
-#my-slider2 .ism-radios {
+#my-slider2 .ism-radios,
+#my-slider3 .ism-radios,
+#myslider-4 .ism-radios,
+#myslider-5 .ism-radios,
+#myslider-6 .ism-radios {
     display: none;
     height: 32px;
     text-align: center;
 }
 
 #my-slider .ism-radios label,
-#my-slider2 .ism-radios label {
+#my-slider2 .ism-radios label,
+#my-slider3 .ism-radios label,
+#myslider-4 .ism-radios label,
+#myslider-5 .ism-radios label,
+#myslider-6 .ism-radios label {
     width: 60px; height: 32px;
     border-radius: 3px;
     color: #fff; background-color: rgba(0, 0, 0, 0.5);
 }
 
 #my-slider .ism-radios li.ism-radio-0 label,
-#my-slider2 .ism-radios li.ism-radio-0 label {
+#my-slider2 .ism-radios li.ism-radio-0 label,
+#my-slider3 .ism-radios li.ism-radio-0 label,
+#myslider-4 .ism-radios li.ism-radio-0 label,
+#myslider-5 .ism-radios li.ism-radio-0 label,
+#myslider-6 .ism-radios li.ism-radio-0 label {
     background-image: url(../image/slides/flower-729514_1280.jpg);
 }
 
 #my-slider .ism-radios li.ism-radio-1 label,
-#my-slider2 .ism-radios li.ism-radio-1 label {
+#my-slider2 .ism-radios li.ism-radio-1 label,
+#my-slider3 .ism-radios li.ism-radio-1 label,
+#myslider-4 .ism-radios li.ism-radio-1 label,
+#myslider-5 .ism-radios li.ism-radio-1 label,
+#myslider-6 .ism-radios li.ism-radio-1 label {
     background-image: url(../image/slides/beautiful-701678_1280.jpg);
 }
 
 #my-slider .ism-radios li.ism-radio-2 label,
-#my-slider2 .ism-radios li.ism-radio-2 label {
+#my-slider2 .ism-radios li.ism-radio-2 label,
+#my-slider3 .ism-radios li.ism-radio-2 label,
+#myslider-4 .ism-radios li.ism-radio-2 label,
+#myslider-5 .ism-radios li.ism-radio-2 label,
+#myslider-6 .ism-radios li.ism-radio-2 label {
     background-image: url(../image/slides/summer-192179_1280.jpg);
 }
 
 #my-slider .ism-radios li.active label,
-#my-slider2 .ism-radios li.active label  {
+#my-slider2 .ism-radios li.active label,
+#my-slider3 .ism-radios li.active label,
+#myslider-4 .ism-radios li.active label,
+#myslider-5 .ism-radios li.active label,
+#myslider-6 .ism-radios li.active label  {
     background-color: rgba(0, 0, 0, 1.0);
 }
 
 #my-slider .ism-radios label:hover,
-#my-slider2 .ism-radios label:hover, {
+#my-slider2 .ism-radios label:hover,
+#my-slider3 .ism-radios label:hover,
+#myslider-4 .ism-radios label:hover,
+#myslider-5 .ism-radios label:hover,
+#myslider-6 .ism-radios label:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -390,44 +466,72 @@ p.ism-badge a.ism-link:hover {
 /* SLIDES */
 
 #my-slider .ism-slide-0 img,
-#my-slider2 .ism-slide-0 img {
+#my-slider2 .ism-slide-0 img,
+#my-slider3 .ism-slide-0 img,
+#myslider-4 .ism-slide-0 img,
+#myslider-5 .ism-slide-0 img,
+#myslider-6 .ism-slide-0 img {
     width: 100%; height: 100%;
 }
 
 #my-slider .ism-slide-0 .ism-img,
-#my-slider2 .ism-slide-0 .ism-img {
+#my-slider2 .ism-slide-0 .ism-img,
+#my-slider3 .ism-slide-0 .ism-img,
+#myslider-4 .ism-slide-0 .ism-img,
+#myslider-5 .ism-slide-0 .ism-img,
+#myslider-6 .ism-slide-0 .ism-img {
     width: 100%; height: 100%;
 }
 
 #my-slider .ism-slide-1 .ism-img-frame,
-#my-slider2 .ism-slide-1 .ism-img-frame {
+#my-slider2 .ism-slide-1 .ism-img-frame,
+#my-slider3 .ism-slide-1 .ism-img-frame,
+#myslider-4 .ism-slide-1 .ism-img-frame,
+#myslider-5 .ism-slide-1 .ism-img-frame,
+#myslider-6 .ism-slide-1 .ism-img-frame {
     width: 100%;
 }
 
 #my-slider .ism-slide-1 .ism-img,
-#my-slider2 .ism-slide-1 .ism-img  {
+#my-slider2 .ism-slide-1 .ism-img,
+#my-slider3 .ism-slide-1 .ism-img,
+#myslider-4 .ism-slide-1 .ism-img,
+#myslider-5 .ism-slide-1 .ism-img,
+#myslider-6 .ism-slide-1 .ism-img {
     width: 100%;
     top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
 }
 
 #my-slider .ism-slide-2 .ism-img-frame,
-#my-slider2 .ism-slide-2 .ism-img-frame {
+#my-slider2 .ism-slide-2 .ism-img-frame,
+#my-slider3 .ism-slide-2 .ism-img-frame,
+#myslider-4 .ism-slide-2 .ism-img-frame,
+#myslider-5 .ism-slide-2 .ism-img-frame,
+#myslider-6 .ism-slide-2 .ism-img-frame {
     width: 100%;
 }
 
 #my-slider .ism-slide-2 .ism-img,
-#my-slider2 .ism-slide-2 .ism-img {
+#my-slider2 .ism-slide-2 .ism-img,
+#my-slider3 .ism-slide-2 .ism-img,
+#myslider-4 .ism-slide-2 .ism-img,
+#myslider-5 .ism-slide-2 .ism-img,
+#myslider-6 .ism-slide-2 .ism-img {
     width: 100%;
     top: 50%; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%);
 }
 
 #my-slider li.ism-slide-0 .ism-img,
-#my-slider2 li.ism-slide-0 .ism-img {
+#my-slider2 li.ism-slide-0 .ism-img,
+#my-slider3 li.ism-slide-0 .ism-img,
+#myslider-4 li.ism-slide-0 .ism-img,
+#myslider-5 li.ism-slide-0 .ism-img,
+#myslider-6 li.ism-slide-0 .ism-img {
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
 
-/* CAPTIONS */
+/* CAPTIONS 
 
 #my-slider .ism-slide-0 .ism-caption-0.ism-caption-anim,
 #my-slider2 .ism-slide-0 .ism-caption-0.ism-caption-anim {
@@ -571,5 +675,5 @@ p.ism-badge a.ism-link:hover {
     border-radius: 4px;
     border: none;
     color: #fff; background-color: rgba(0, 0, 0, 0.70);
-}
+}*/
 
