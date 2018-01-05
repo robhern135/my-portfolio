@@ -7,13 +7,13 @@
     /* styles for MacBook Pro-sized screens and larger */
 @media only screen and (min-width: 1440px) {
   #about {
-      background-image: url("../img/aboutslidebig.jpg");
+      background-image: url("http://robhern.co.uk/img/aboutslidebig.jpg");
   }
   #contact {
-      background-image: url("../img/contactslidebig.jpg");
+      background-image: url("http://robhern.co.uk/img/contactslidebig.jpg");
   }
   #home {
-      background-image: url("../img/homeslidebig.jpg");
+      background-image: url("http://robhern.co.uk/img/homeslidebig.jpg");
   }
 }
 /* overlapping contact text*/
@@ -52,13 +52,13 @@
   }
   h1{font-size:40px;}
   #contact {
-    background-image: url("../img/contactslide800.jpg");
+    background-image: url("http://robhern.co.uk/img/contactslide800.jpg");
   }
   #about {
-    background-image: url("../img/aboutslide800.jpg");
+    background-image: url("http://robhern.co.uk/img/aboutslide800.jpg");
   }
   #home {
-  	background-image: url("../img/homeslide800.jpg");
+  	background-image: url("http://robhern.co.uk/img/homeslide800.jpg");
   	height: auto;
   	padding-bottom: 60px;
   	min-height: 100vh;
@@ -163,19 +163,19 @@
 
 @media only screen and (max-width: 500px) {
   #about {
-    background-image: url("../img/mobileabout.jpg");
+    background-image: url("http://robhern.co.uk/img/mobileabout.jpg");
       background-attachment: scroll;
       background-size: auto;
       background-position: center;
   }
   #contact {
-    background-image: url("../img/mobilecontact.jpg");
+    background-image: url("http://robhern.co.uk/img/mobilecontact.jpg");
       background-attachment: scroll;
       background-size: auto cover;
       background-position: center;
   }
   #home {
-    background-image: url("../img/mobilehome.jpg");
+    background-image: url("http://robhern.co.uk/img/mobilehome.jpg");
       background-attachment: scroll;
       background-size: auto;
       background-position: center;

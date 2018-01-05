@@ -67,40 +67,40 @@ svg {
   background-repeat: no-repeat;
 }
 .vertical-stacking-large:nth-child(1) {
-  background-image: url("../img/m10/large-strips/ihs-xmas-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/ihs-xmas-large-strip.jpg");
   z-index:3;
   background-position: center;
 }
 .vertical-stacking-large:nth-child(2) {
-  background-image: url("../img/m10/large-strips/idt-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/idt-large-strip.jpg");
   z-index:4;
   background-position: center;
 }
 .vertical-stacking-large:nth-child(3) {
-  background-image: url("../img/m10/large-strips/ihs-spring-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/ihs-spring-large-strip.jpg");
   z-index:5;
 }
 .vertical-stacking-large:nth-child(4) {
-  background-image: url("../img/m10/large-strips/100pc-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/100pc-large-strip.jpg");
   z-index:6;
 }
 .vertical-stacking-large:nth-child(5) {
-  background-image: url("../img/m10/large-strips/ukcw-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/ukcw-large-strip.jpg");
   z-index:7;
   background-position: center;
 }
 .vertical-stacking-large:nth-child(6) {
-  background-image: url("../img/m10/large-strips/gdl-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/gdl-large-strip.jpg");
   z-index:8;
   background-position: center;
 }
 .vertical-stacking-large:nth-child(7) {
-  background-image: url("../img/m10/large-strips/construction-summits-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/construction-summits-large-strip.jpg");
   z-index:9;
   background-position: right;
 }
 .vertical-stacking-large:nth-child(8) {
-  background-image: url("../img/m10/large-strips/bob-cn-large-strip.jpg");
+  background-image: url("http://robhern.co.uk/img/m10/large-strips/bob-cn-large-strip.jpg");
   z-index:10;
 }
 .vertical-overlay-large{
@@ -126,7 +126,7 @@ svg {
 .vertical-overlay-large:hover .vertical-logo-large.logo-right{ right: 9px; transition: 250ms ease-in all;}
 
 #m10-description{
-  background-image: url(../img/cityscape.jpg);
+  background-image: url(http://robhern.co.uk/img/cityscape.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

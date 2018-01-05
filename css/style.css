@@ -53,7 +53,7 @@ p {
 
 
 #home {
-  background-image: url("../img/homeslide.jpg");
+  background-image: url("http://robhern.co.uk/img/homeslide.jpg");
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
@@ -67,14 +67,14 @@ p {
 }
 
 #contact {
-  background-image: url("../img/contactslide.jpg");
+  background-image: url("http://robhern.co.uk/img/contactslide.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
 }
 
 #about {
-  background-image: url("../img/aboutslide.jpg");
+  background-image: url("http://robhern.co.uk/img/aboutslide.jpg");
   background-size: cover;
   display: flex;
   flex-wrap: wrap;
