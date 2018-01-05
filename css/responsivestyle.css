@@ -1,9 +1,8 @@
 /* INFO
 ==============================
 - Css by: Rob Hern
-- Version:1.0.0
+- Version: 1.5.0
 */
-
 
     /* styles for MacBook Pro-sized screens and larger */
 @media only screen and (min-width: 1440px) {
@@ -19,17 +18,39 @@
 }
 /* overlapping contact text*/
 
-@media only screen and (max-width: 1032px) and (min-width: 801px) {
-  .contact-slide p {
-    font-size: 15px;
-  }
+@media only screen and (min-width: 1300px){
+  .slide-header{display:block;}
 }
+
+@media only screen and (max-width: 1032px) and (min-width: 801px) {
+  .contact-slide p {font-size: 15px;}
+}
+
+@media only screen and (max-width:1280px){ 
+  .overlayLogo{max-width: 105px !important; transition: all 650ms ease;}
+  li:hover .overlayLogo{max-width: 150px !important; transition: all 650ms ease;}
+}
+
+@media only screen and (max-width: 955px){
+  div.vertical-stacking-large{ width:100%; background-size: cover;}
+    div.vertical-stacking-large:nth-child(1){background-position: center;}
+    div.vertical-stacking-large:nth-child(2){background-position: center;}
+    div.vertical-stacking-large:nth-child(3){background-position: left;}
+    div.vertical-stacking-large:nth-child(4){background-position: center;}
+    div.vertical-stacking-large:nth-child(5){background-position: center;}
+    div.vertical-stacking-large:nth-child(6){background-position: center;}
+    div.vertical-stacking-large:nth-child(7){background-position: right;}
+    div.vertical-stacking-large:nth-child(8){background-position: center;} 
+    #m10-text p{width:90% !important;}
+}
+
 
 /*iPad size*/
 @media only screen and (max-width: 800px) {
   body {
   	width: 100vw;
   }
+  h1{font-size:40px;}
   #contact {
     background-image: url("../img/contactslide800.jpg");
   }
@@ -43,19 +64,19 @@
   	min-height: 100vh;
     padding-top: 0;
   	}
-  #home h1 {
+  /*#home h1 {
     font-size: 90;
   }
   #home h2 {
     font-size: 35px;
-  }
+  }*/
   #headings-section {
   	width: 80%;
    	margin-top: 0;
-   	padding-top: 25vh;
+   	padding-top: 140px;
   }
   #home p {
-  	font-size: 30px;
+/*  	font-size: 30px;*/
   	width: 100%;
   }
   /*  NAV  */
@@ -69,7 +90,7 @@
   	font-size: 25px;
   }
   .topnav a {
-  	width: 20%;
+  	width:calc(100% / 6);
   	font-size: 25px;
   	padding-top: 20px;
   }
@@ -127,6 +148,10 @@
     width: 100%;
     text-align: center;
   }
+  #m10-horizontal-accordian{display:none;}
+  #m10-vertical-stack{display:inline;}
+  #M10{height:100%;}
+  #m10_header{display:none;}
 }
 
 @media only screen and (max-width: 590px) {
@@ -191,7 +216,7 @@
   #contact,
   #about {
   	min-height: 100vh;
-  	height: auto;
+  	height: 100%;
   	padding-bottom: 20px;
   }
   #portfolio h3 {
@@ -219,4 +244,28 @@
   .info-box {
     width: 100%;
   }
+  .vertical-stacking:nth-child(1) {
+    background-position: -105px center;
+  }
+.vertical-stacking:nth-child(2) {
+  background-position: 0 center;
+  }
+.vertical-stacking:nth-child(3) {
+  background-position: -65px center;
+  }
+.vertical-stacking:nth-child(4) {
+  background-position: 0 center;
+  }
+.vertical-stacking:nth-child(5) {
+  background-position: 0 center;
+  }
+.vertical-stacking:nth-child(6) {
+  background-position: -295px center;
+  }
+.vertical-stacking:nth-child(7) {
+  background-position: -85px center;
+  }
+
+
+
 }

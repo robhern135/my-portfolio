@@ -81,7 +81,6 @@ p {
   color: #000;
 }
 
-
 .contact-slide{
   min-height: 50vh;
   width: 25%;
@@ -143,7 +142,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 500;
 }
 
 /* Style the links inside the navigation bar */
@@ -476,6 +475,7 @@ hr {
   text-align: center;
   color: #00cc99;
   width: 100%;
+  display:none;
 }
 
 .black {
