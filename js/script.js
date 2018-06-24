@@ -97,7 +97,7 @@ $('.skills-progress-wrap').each(function(){
 //responsive Job title info
 
 var bio = {
-    "jobtitle" : "Junior Front End Web Developer"
+    "jobtitle" : "Front End Web Developer"
 };
 
 $("#jobtitle").html(bio.jobtitle);
