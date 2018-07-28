@@ -1,0 +1,10 @@
+<i class="fas fa-code"></i> Development
+<i class="far fa-file-code"></i> Build
+<i class="fas fa-pencil-alt"></i> Design
+
+
+          <div class="work-type-container">
+            <span class="tooltipped" data-position="left" data-tooltip="Development"><i class="fas fa-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Site Build"><i class="far fa-file-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Design"><i class="fas fa-pencil-alt"></i></span>
+          </div>
