@@ -1,476 +1,429 @@
 <!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!-->
 <html>
+<!--<![endif]-->
+
 <head>
-  <title>Rob Hern - Front End Web Developer</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/min/style.min.css"/>
-  <link rel="stylesheet" href="css/min/responsivestyle.min.css"/>
-  <link rel="stylesheet" href="css/min/gallerystyle.min.css"/>
-  <link rel="stylesheet" href="fonts/pe-icon-social/css/pe-icon-social.css">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/min/m10_style.min.css"/>
-  <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" href="fonts/ow/css/styles.min.css"/>
-  <meta name="description" content="Rob Hern's Portfolio. Front-End Web Developer in London, England">
-  <meta property="og:title" content="Rob Hern. Front-End Web Developer. London, England.">
-  <meta property="og:image" content="img/favicon.png">
-  <meta property="site_name" content="Rob Hern | Junior Front End Web Developer">
-  <meta name="twitter:site" content="@robhern">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Rob Hern - Front End Web Developer</title>
+	<meta name="author" content="Rob Hern">
+	<meta name="description" content="Rob Hern - Front End Web Developer based in London, England">
+	<meta name="keywords" content="web developer, web, design, website, media 10, react, sass, scss, exhibitions, site, front end, front end developer">
+	<!-- Latest compiled and minified Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Compiled and minified Materialize CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<!--Custom CSS-->
+	<link rel="stylesheet" href="css/style.min.css" type="text/css">
+	<link rel="stylesheet" href="img/ow/css/styles.min.css" />
+	<!-- Hotjar Tracking Code for robhern.co.uk -->
+	<script>
+		(function(h,o,t,j,a,r){
+		        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		        h._hjSettings={hjid:936109,hjsv:6};
+		        a=o.getElementsByTagName('head')[0];
+		        r=o.createElement('script');r.async=1;
+		        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		        a.appendChild(r);
+		    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
 </head>
 
-<body>
+<body class="homepage">
+	<div class="container-flex">
+		<section id="homepage" class="gradientBG">
+			<div class="container">
+				<div class="homeContent">
+					<div class="hover-container"> <a href="#about" id="nameHeading" class="anchor-tag"><h1>Rob Hern</h1></a>
+					</div>
+					<h2>I am a self-taught Front End Web Developer currently working at <span class="hover-container m10"><a class="m10link" target="_blank" href="https://media-ten.com/">Media 10 Ltd</a></span>across their portfolio of over 45 sites. I love building visually engaging sites focusing on clean, semantic code.</h2>
+					<div class="iconContainer2"> <a href="https://www.linkedin.com/in/roberthern/" target="_blank" class="btnlinkedin2 valign-wrapper tooltipped homeIcon" data-position="bottom" data-tooltip="Connect on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+						<a href="mailto:robertjhern@gmail.com" class="btnenvelope2 valign-wrapper homeIcon tooltipped" data-position="bottom" data-tooltip="Email Me"><i class="far fa-envelope"></i></a>
+						<a href="http://github.com/robhern135" target="_blank" class="btngithub2 valign-wrapper homeIcon tooltipped" data-position="bottom" data-tooltip="View my Repos"><i class="fab fa-github"></i></a>
+						<a href="#about" class="anchor-tag btnabout2 valign-wrapper homeIcon  tooltipped" data-position="bottom" data-tooltip="About Me"><i class="fas fa-user-circle"></i></a>
+						<a href="#portfolio" class="anchor-tag btnportfolio2 valign-wrapper homeIcon  tooltipped" data-position="bottom" data-tooltip="Jump to Portfolio"><i class="fas fa-file-code"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="hover panel">
+				<div class="front">
+					<div class="box1">
+						<!--front side-->
+					</div>
+				</div>
+				<div class="back">
+					<div class="box2">
+						<img src="img/about/rob.jpg" class="lazy" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<h2 class="homepage-header">Portfolio</h2>
+			<h4 class="homepage-subheader">-- <span>Personal Projects</span> --</h4>
+			
+			<div class="portfolio-link recipe left" href="https://robhern135.github.io/Recipe-Search-App-Code/">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Recipe Search App">Recipe Search App</h2>
+					<p class="portfolio-desc-proj">ReactJS App using Food2Fork API</p>
+					<div class="portfolio-tags"> <span>ReactJS</span>
+						<span>JSX</span>
+						<a href="https://food2fork.com/about/api" target="_blank">Food2Fork API</a>
+						<span>ReactRouter</span>
+						<span>Node/NPM</span>
+					</div>
+					<button class="viewMoreBtn personalbtn white"><a href="https://robhern135.github.io/Recipe-Search-App-Code/" target="_blank">View Live</a></button>
+					<button class="viewMoreBtn personalbtn white"><a href="https://github.com/robhern135/Recipe-Search-App-Code/" target="_blank">View Repo</a></button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-left col-md-6 col-sm-12">
+					<img src="img/projects/react-recipe.png" />
+				</figure>
+			</div>
+			<!--end portoflio-link-->
 
-<nav class="topnav" id="myTopnav">
-  <a href="#home">
-    <p class="firstnav">Rob Hern</p>
-    <p class="secondnav poppins">RH</p>
-  </a>
-  <a href="#home">
-    <p class="firstnav">Home</p>
-    <p class="secondnav fa fa-home"></p>
-  </a>
-  <a href="#m10-anchor">
-    <p class="firstnav">Current Work</p>
-    <p class="secondnav fa fa-building-o"></p>
-  </a>
-  <a href="#portfolio">
-    <p class="firstnav">Portfolio</p>
-    <p class="secondnav fa fa-file-code-o"></p>
-  </a>
-  <a href="#contact">
-    <p class="firstnav">Contact</p>
-    <p class="secondnav fa fa-envelope-o"></p>
-  </a>
-  <a href="#about">
-    <p class="firstnav">About</p>
-    <p class="secondnav fa fa-user"></p>
-  </a>
-</nav>
+			<div class="portfolio-link spotify right" href="https://github.com/robhern135/spotify-now-playing/">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Now Playing App">Now Playing App</h2>
+					<p class="portfolio-desc-proj">ReactJS App using Spotify API & OAuth</p>
+					<p>TODO: Look into React-Router methods with Spotify OAuth to host the build of this App live.</p>
+					<div class="portfolio-tags"> <span>ReactJS</span>
+						<span>JSX</span>
+						<a href="https://developer.spotify.com/documentation/web-api/" target="_blank">Spotify API</a>
+						<span>OAuth</span>
+						<span>SASS/SCSS</span>
+						<span>Node/NPM</span>
+					</div>
+					<button class="viewMoreBtn personalbtn white"><a href="https://github.com/robhern135/spotify-now-playing/" target="_blank">View Repo</a></button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-right col-md-6 col-sm-12">
+					<img src="img/projects/react-spotify.png" />
+				</figure>
+			</div>
+			<!--end portoflio-link-->
 
-<div id="home" class="slide">
-      <div id="headings-section">
-        <h1 class="highlight-text">Rob Hern</h1>
-        <h2 id="jobtitle">Front End Web Developer</h2>
-        <p>I am a Front End Web Developer based in London. I enjoy building sites with responsive design and sleek user experiences with a focus on the site's content.</p>
-        <p>I am currently working as a Front End Web Developer at <a href="#M10" class="highlight-text" >Media 10 Ltd</a>.</p>
-        <p>Please check out my <a href="#portfolio" class="highlight-text">Portfolio</a>, and feel free to <a class="highlight-text" href="#contact">get in touch</a> if you like what you see!</p>
-      </div>
-</div>
-<div id="m10-anchor"></div>
-<div id="M10" class="slide">
-<div id="m10_header">
-  <h2 class="tiny-header">Current Work Showcase - Media 10 Ltd</h2>
-  <div class="scroll-down svg" id="home-scroll-down">
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_2" x="0px" y="0px" viewBox="0 0 25.166666 37.8704414" enable-background="new 0 0 25.166666 37.8704414" xml:space="preserve">
-        <path class="stroke" fill="none" stroke="#fff" stroke-width="2.5" stroke-miterlimit="10" d="M12.5833445 36.6204414h-0.0000229C6.3499947 36.6204414 1.25 31.5204487 1.25 25.2871208V12.5833216C1.25 6.3499947 6.3499951 1.25 12.5833216 1.25h0.0000229c6.2333269 0 11.3333216 5.0999947 11.3333216 11.3333216v12.7037992C23.916666 31.5204487 18.8166714 36.6204414 12.5833445 36.6204414z"></path>
-        <path class="scroller" fill="#fff" d="M13.0833359 19.2157116h-0.9192753c-1.0999985 0-1.9999971-0.8999996-1.9999971-1.9999981v-5.428606c0-1.0999994 0.8999987-1.9999981 1.9999971-1.9999981h0.9192753c1.0999985 0 1.9999981 0.8999987 1.9999981 1.9999981v5.428606C15.083334 18.315712 14.1833344 19.2157116 13.0833359 19.2157116z"></path>
-    </svg><i class="icon icon-arrow-down"></i>
-</div>
+			<div class="portfolio-link pixabay left" href="https://robhern135.github.io/pixabay-image-search-code/">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Image Search App">Image Search App</h2>
+					<p class="portfolio-desc-proj">ReactJS App using Pixabay API & Material UI</p>
+					<p>TODO: Implement a single image view page with the relevent data and attribution for each photo.</p>
+					<p>TODO: Related image section?</p>
+					<div class="portfolio-tags"> <span>ReactJS</span>
+						<span>JSX</span>
+						<a href="https://pixabay.com/api/docs/" target="_blank">Pixabay API</a>
+						<a href="https://material-ui.com/" target="_blank">Material UI</a>
+						<span>Node/NPM</span>
+					</div>
+					<button class="viewMoreBtn personalbtn white"><a href="https://robhern135.github.io/pixabay-image-search-code/" target="_blank">View Live</a></button>
+					<button class="viewMoreBtn personalbtn white"><a href="https://github.com/robhern135/pixabay-image-search-code/" target="_blank">View Repo</a></button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-left col-md-6 col-sm-12">
+					<img src="img/projects/react-pixa.png" />
+				</figure>
+			</div>
+			<!--end portoflio-link-->
 
-</div>
+			<div class="portfolio-link bacon right" href="https://robhern135.github.io/bacon-ipsum-generator/">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Bacon Text Generator">Bacon Text Generator</h2>
+					<p class="portfolio-desc-proj">ReactJS App using BaconIpsum API & Material UI</p>
+					<p>TODO: Think about extending out to multiple Ipsum Generator APIs and aggregate them together in one central place.</p>
+					<div class="portfolio-tags"> <span>ReactJS</span>
+						<span>JSX</span>
+						<a href="https://baconipsum.com/json-api/" target="_blank">Bacon Ipsum API</a>
+						<a href="https://github.com/axios/axios" target="_blank">Axios</a>
+						<a href="https://material-ui.com/" target="_blank">Material UI</a>
+						<span>Node/NPM</span>
+					</div>
+					<button class="viewMoreBtn personalbtn white"><a href="https://robhern135.github.io/bacon-ipsum-generator/" target="_blank">View Live</a></button>
+					<button class="viewMoreBtn personalbtn white"><a href="https://github.com/robhern135/bacon-ipsum-generator/" target="_blank">View Repo</a></button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-right col-md-6 col-sm-12">
+					<img src="img/projects/react-bacon.png" />
+				</figure>
+			</div>
+			<!--end portoflio-link-->
 
-
-<div id="m10-description">
-  <div id="m10-text">
-    <p>I am currently working at <a href="http://media-ten.com" class="highlight-text" target="_blank">Media 10 Ltd</a> as a Front End Web Developer.</p>
-    <p>The role comprises of reskins to existing sites, implementation of new creative campaigns from mockups supplied by studio and day to day upkeep & development of websites for over 45 brands.</p>
-    <p>Please see below for a select showcase of Media 10's brands and my work with the web team.</p>
-  </div>
-</div>
-<div id="m10-vertical-stack-large">
-  <div class="vertical-stacking-large">
-    <a href="http://idealhomeshowchristmas.co.uk/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/ihsxmas_logo.png" class="vertical-logo-large logo-left" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://icondesigntrail.com/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/idt_logo.png" class="vertical-logo-large logo-right" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://ukconstructionweek.com/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/ukcw-logo.png" class="vertical-logo-large logo-left" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://100percentoptical.com/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/100-pc-logo.png" class="vertical-logo-large logo-right" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://idealhomeshow.co.uk/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/ihs_spr_logo.png" class="vertical-logo-large logo-left" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://granddesignslive.com/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/gdl-logo.png" class="vertical-logo-large logo-right" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://constructionsummits.com/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/cs-logo.png" class="vertical-logo-large logo-left" />
-      </div>
-    </a>
-  </div>
-  <div class="vertical-stacking-large">
-    <a href="http://thebestofbritishshow.cn/" target="_blank">
-      <div class="vertical-overlay-large">
-        <img src="img/m10/bob-logo.png" class="vertical-logo-large logo-right" />
-      </div>
-    </a>
-  </div>
-
-</div><!-- end of m10-vertical-stack-large-->
-
-<div id="portfolio" class="slide">
-<h1 class="slide-header black">Portfolio</h1>
-  <div id="project-container">
-    <div class="project-box"><!--      START PORTFOLIO PIECE    -->
-      <div class="imgbox">
-        <div class="ism-slider" data-play_type="loop" data-radio_type="thumbnail" id="my-slider">
-        <ol>
-          <li>
-            <img src="img/jacksite/desktop.png" alt="Desktop View">
-          </li>
-          <li>
-            <img src="img/jacksite/mobile.png" alt="Mobile View">
-          </li>
-          <li>
-            <img src="img/jacksite/tablet.png" alt="Tablet View">
-
-          </li>
-        </ol>
-        </div><!--end of gallery-->
-      </div><!--end of imgbox-->
-      <div class="aboutbox">
-        <h3 class="poppins"><a target="_blank" href="http://jackmudge.co.uk">Artist Portfolio</a></h3>
-        <h4 class="poppins"><a target="_blank" href="https://www.linkedin.com/in/jackmudge">Jack Mudge</a></h4>
-        <p class="portfolio-desc">A fully responsive Artist's Portfolio website utilising Bootstrap and jQuery to show off skills and finished pieces.</p>
-        <h4 class="poppins"><a href="https://github.com/robhern135/Jack-Mudge">Github Repo</a></h4>
-        <div class="list-container">
-        <ul class="skills-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript 5</li>
-          <li>jQuery</li>
-          <li>Bootstrap</li>
-          <li>Responsive Design</li>
-          <li>Modals</li>
-          <li>Rollovers</li>
-          <li>JSON</li>
-          <li>Handmade</li>
-        </ul>
-        </div><!--end of list-container-->
-      </div><!--end of aboutbox-->
-    </div><!-- end of project-box -->
-
-
-
-    <div class="project-box"><!--START PORTFOLIO PIECE    -->
-      <div class="imgbox">
-        <div class="ism-slider" data-play_type="loop" data-radio_type="thumbnail" id="my-slider2">
-        <ol>
-          <li>
-            <img src="img/angiesite/desktop.png" alt="Desktop View">
-          </li>
-          <li>
-            <img src="img/angiesite/mobile.png" alt="Mobile View">
-          </li>
-          <li>
-            <img src="img/angiesite/tablet.png" alt="Tablet View">
-          </li>
-        </ol>
-        </div><!--end of gallery-->
-      </div><!--end of imgbox-->
-      <div class="aboutbox">
-        <h3 class="poppins"><a target="_blank" href="http://robhern135.github.io/angiemudge" class="smaller"> Make-Up Artist Portfolio</a></h3>
-        <h4 class="poppins"><a target="_blank" href="https://www.linkedin.com/in/angie-mudge-64b7aa77/">Angie Mudge</a></h4>
-        <p class="portfolio-desc">Hand-remaking of an existing portfolio site to make it fully responsive & accessible, including tables populated upon page load via JSON objects.</p>
-        <h4 class="poppins"><a href="https://github.com/robhern135/angiemudge">Github Repo</a></h4>
-        <div class="list-container">
-        <ul class="skills-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript 5</li>
-          <li>jQuery</li>
-          <li>Responsive Design</li>
-          <li>Rollovers</li>
-          <li>JSON</li>
-          <li>Handmade</li>
-          <li><a href="http://johnpolacek.github.io/stacktable.js/">Plugin: Stacktable.js</a></li>
-        </ul>
-        </div><!--end of list-container-->
-      </div><!--end of aboutbox-->
-    </div><!-- end of project-box -->
-
-    <div class="project-box"><!--START PORTFOLIO PIECE    -->
-      <div class="imgbox">
-        <div class="ism-slider" data-play_type="loop" data-radio_type="thumbnail" id="my-slider3">
-        <ol>
-          <li>
-            <img src="img/lostboysite/desktop.png" alt="Desktop View">
-          </li>
-          <li>
-            <img src="img/lostboysite/mobile.png" alt="Mobile View">
-          </li>
-          <li>
-            <img src="img/lostboysite/tablet.png" alt="Tablet View">
-          </li>
-        </ol>
-        </div><!--end of gallery-->
-      </div><!--end of imgbox-->
-      <div class="aboutbox">
-        <h3 class="poppins"><a target="_blank" href="http://robhern135.github.io/Lostboy" class="smaller">Indie Folk Band</a></h3>
-        <h4 class="poppins"><a target="_blank" href="https://twitter.com/lostboyduo">Lostboy</a></h4>
-        <p class="portfolio-desc">A sleek, easy to use, fully responsive website for an independent folk band showcasing videos and tour dates.</p>
-        <h4 class="poppins"><a href="https://github.com/robhern135/Lostboy">Github Repo</a></h4>
-        <div class="list-container">
-        <ul class="skills-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript 5</li>
-          <li>jQuery</li>
-          <li>Responsive Design</li>
-          <li>JSON</li>
-          <li>Handmade</li>
-          <li><a href="https://news.bandsintown.com/home">Widget: BandsInTown</a></li>
-        </ul>
-        </div><!--end of list-container-->
-      </div><!--end of aboutbox-->
-    </div><!-- end of project-box -->
-
-
-  </div><!--end of project-container-->
-<!--     <p id="moresoon">More Coming Soon</p>
-  <hr><!--  END OF INDIVIDUAL PORTFOLIO PIECE  --> -->
-
-
-</div><!--end of portfolio-->
-
-<div id="contact" class="slide">
-  <h1 class="slide-header">Contact</h1>
-  <div id="email" class="contact-slide"><a href= "mailto:robertjhern@gmail.com"><li class="fa fa-envelope-o"></li>
-  <p>RobertJHern@gmail.com</p></a></div>
-  <div id="github" class="contact-slide"><a target="_blank" href= "http://github.com/robhern135"><li class="pe-so-github"></li><p>github.com/RobHern135</p></a></div>
-  <div id="linkedin" class="contact-slide"><a target="_blank" href= "https://www.linkedin.com/in/roberthern"><li class="pe-so-linkedin"></li><p>/in/RobertHern</p></a></div>
-  <div id="twitter" class="contact-slide"><a target="_blank" href= "http://twitter.com/robhern"><li class="pe-so-twitter"></li><p>@RobHern</p></a></div>
-</div>
-
-<div id="about" class="slide">
-  <h1 class="slide-header black">About</h1>
-  <div id="top-container">
-  <!--<div id="about-info-container">
-    <h3>About Me</h3>
-    <p>After having worked in Television for 3 years for companies such as ITV, BSkyB, BBC, and Netflix, I am currently retraining in Web Development. My time in TV allowed me to cultivate a strong work ethic, a level head under pressure, excellent prioritisation and time keeping skills, as well as a logical, methodical, careful approach to all work I undertake.</p><p>I am working full time to complete Udacity’s Front End Web Developer Nanodegree course in a timely yet thorough manner while working on personal projects to build up a strong portfolio.</p>
-  </div>-->
-  <div id="skills-container">
-    <h3 id="bar-trigger">Skills</h3>
-    <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
-        <p class="skill-identifier">HTML5</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div><!--end of skills-box-->
-    </div>
-
-    <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
-        <p class="skill-identifier">CSS3</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div>
-    </div><!--end of skills-box-->
-
-    <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="70">
-        <p class="skill-identifier">Javascript</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div>
-    </div><!--end of skills-box-->
-
-    <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="80">
-        <p class="skill-identifier">jQuery</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div>
-    </div><!--end of skills-box-->
-
-    <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="90">
-        <p class="skill-identifier">Responsive Design</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div><!--end of skills-box-->
-
-      <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="70">
-        <p class="skill-identifier">Bootstrap</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div><!--end of skills-box-->
-
-      <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="60">
-        <p class="skill-identifier">PHP</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div><!--end of skills-box-->
-
-      <div id="skills-box"><!-- start bar -->
-      <div class="progress-wrap progress skills-wrap" data-progress-percent="75">
-        <p class="skill-identifier">Joomla</p>
-        <div class="progress-bar progress skills-bar"></div>
-      </div><!--end of skills-box-->
-</div>
-
-    </div>
-
-      
-    </div>
-    </div>
-  </div><!--end of skills-container-->
-
-  <div id="info-container">
-    <h2>2017 Goals</h2>
-    <div class="info-box">
-      <p class="info-description">Bullseyes Hit</p>
-      <p class="info-icon"><i class="fa fa-bullseye" aria-hidden="true"></i></p>
-      <p class="info-total">21</p>
-      <p class="info-goal">Goal: 25</p>
-      <div class="progress-wrap progress" data-progress-percent="84">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div>
-
-    <div class="info-box">
-      <p class="info-description">Films Watched</p>
-      <p class="info-icon"><i class="fa fa-film" aria-hidden="true"></i></p>
-      <p class="info-total">38</p>
-      <p class="info-goal">Goal: 40</p>
-      <div class="progress-wrap progress" data-progress-percent="90">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div>
-
-    <div class="info-box">
-      <p class="info-description">New Dishes Cooked</p>
-      <p class="info-icon"><i class="fa fa-cutlery" aria-hidden="true"></i></p>
-      <p class="info-total">10</p>
-      <p class="info-goal">Goal: 10</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div>
-
-    <div class="info-box">
-      <p class="info-description">Holidays Taken</p>
-      <p class="info-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></p>
-      <p class="info-total">2</p>
-      <p class="info-goal">Goal: 2</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div>
-
-    <div class="info-box">
-      <p class="info-description">New Cities Visited</p>
-      <p class="info-icon"><i class="fa fa-map-o" aria-hidden="true"></i></p>
-      <p class="info-total">2</p>
-      <p class="info-goal">Goal: 2</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div>
-
-    <div class="info-box">
-      <p class="info-description">Live Events</p>
-      <p class="info-icon"><i class="fa fa-ticket" aria-hidden="true"></i></p>
-      <p class="info-total">15</p>
-      <p class="info-goal">Goal: 15</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-    <div class="info-box">
-      <p class="info-description">Languages Learned</p>
-      <p class="info-icon"><i class="fa fa-file-code-o" aria-hidden="true"></i></p>
-      <p class="info-total">5</p>
-      <p class="info-goal">Goal: 5</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-    <div class="info-box">
-      <p class="info-description">Drag Race Episodes Watched</p>
-      <p class="info-icon"><i class="fa fa-female" aria-hidden="true"></i></p>
-      <p class="info-total">96+</p>
-      <p class="info-goal">Goal: 96</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-    <div class="info-box">
-      <p class="info-description">Overwatch Level Attained</p>
-      <p class="info-icon"><i class="icons8-overwatch"></i></p>
-      <p class="info-total">500+</p>
-      <p class="info-goal">Goal: 500</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-        <div class="info-box">
-      <p class="info-description">Books Read</p>
-      <p class="info-icon"><i class="fa fa-book" aria-hidden="true"></i></p>
-      <p class="info-total">5</p>
-      <p class="info-goal">Goal: 6</p>
-      <div class="progress-wrap progress" data-progress-percent="80">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-        <div class="info-box">
-      <p class="info-description">Road Trips Taken</p>
-      <p class="info-icon"><i class="fa fa-car" aria-hidden="true"></i></p>
-      <p class="info-total">3</p>
-      <p class="info-goal">Goal: 3</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-        <div class="info-box">
-      <p class="info-description">Netflix Originals Binged</p>
-      <p class="info-icon"><i class="fa fa-television" aria-hidden="true"></i></p>
-      <p class="info-total">5</p>
-      <p class="info-goal">Goal: 5</p>
-      <div class="progress-wrap progress" data-progress-percent="100">
-        <div class="progress-bar progress"></div>
-      </div>
-    </div><!-- END OF INFO BOX-->
-
-  </div><!--end of info-container-->
-  <footer>Site handmade by Rob Hern ©2018</footer>
-</div><!--end of #about-->
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-<script type="text/javascript" src="js/gallery.js"></script>
-<script src="http://imakewebthings.github.com/jquery-waypoints/waypoints.min.js" type="text/javascript"></script>
+			<h4 class="homepage-subheader">-- Media 10 Portfolio --</h4>
+			<a class="portfolio-link gdl left" href="gdl.html">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Grand Designs Live">Grand Designs Live</h2>
+					<p class="portfolio-desc">Pre-2018 Show Site Merge & Reskin</p>
+					<div class="portfolio-tags"> <span>HTML & CSS</span>
+						<span>JS & JQuery</span>
+						<span>Joomla</span>
+						<span>Quix</span>
+						<span class="made-for">Media 10 Ltd</span>
+					</div>
+					<button class="viewMoreBtn">View Project</button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-left col-md-6 col-sm-12">
+					<img src="img/projects/grand-designs-live-project.jpg" />
+				</figure>
+			</a>
+			<!--end portoflio-link-->
+			<a class="portfolio-link tml right" href="tml.html">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="This Morning Live">This Morning Live</h2>
+					<p class="portfolio-desc">Pre-2018 Show Reskin</p>
+					<!--           <div class="work-type-container">
+            <span class="tooltipped" data-position="left" data-tooltip="Development"><i class="fas fa-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Site Build"><i class="far fa-file-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Design"><i class="fas fa-pencil-alt"></i></span>
+          </div> -->
+					<div class="portfolio-tags"> <span>HTML & CSS</span>
+						<span>JS & JQuery</span>
+						<span>Joomla</span>
+						<span>Quix</span>
+						<span class="made-for">Media 10 Ltd</span>
+					</div>
+					<button class="viewMoreBtn">View Project</button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-right col-md-6 col-sm-12">
+					<img src="img/projects/this-morning-live-project.jpg" />
+				</figure>
+			</a>
+			<!--end portoflio-link-->
+			<a class="portfolio-link ukcw left" href="ukcw.html">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="UK Construction Week">UK Construction Week</h2>
+					<p class="portfolio-desc">Front End Development</p>
+					<!--           <div class="work-type-container">
+            <span class="tooltipped" data-position="left" data-tooltip="Development"><i class="fas fa-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Site Build"><i class="far fa-file-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Design"><i class="fas fa-pencil-alt"></i></span>
+          </div> -->
+					<div class="portfolio-tags"> <span>HTML & CSS</span>
+						<span>JS & JQuery</span>
+						<span>Joomla</span>
+						<span class="made-for">Media 10 Ltd</span>
+					</div>
+					<button class="viewMoreBtn">View Project</button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-left col-md-6 col-sm-12">
+					<img src="img/projects/uk-construction-week-project.jpg" />
+				</figure>
+			</a>
+			<!--end portoflio-link-->
+			<a class="portfolio-link tdh right" href="tdh.html">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="Tom, Dick & Harry's">Tom, Dick & Harry's</h2>
+					<p class="portfolio-desc">Landing Page Build</p>
+					<!--           <div class="work-type-container">
+            <span class="tooltipped" data-position="left" data-tooltip="Development"><i class="fas fa-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Site Build"><i class="far fa-file-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Design"><i class="fas fa-pencil-alt"></i></span>
+          </div> -->
+					<div class="portfolio-tags"> <span>HTML & CSS</span>
+						<span>JS & JQuery</span>
+						<span>Static Site</span>
+						<span>Animate.css</span>
+						<span>AnimatedModal.js</span>
+						<span>Handmade</span>
+						<span class="made-for">Media 10 Ltd</span>
+					</div>
+					<button class="viewMoreBtn">View Project</button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-right col-md-6 col-sm-12">
+					<img src="img/projects/tom-dick-and-harrys-project.jpg" />
+				</figure>
+			</a>
+			<!--end portoflio-link-->
+			<a class="portfolio-link wkdd left" href="wkdd.html">
+				<div class="fig-caption col-md-6 col-sm-12">
+					<h2 class="port-title" data-hover="West Kensington Design District">West Kensington Design District</h2>
+					<p class="portfolio-desc">Site Design</p>
+					<!--           <div class="work-type-container">
+            <span class="tooltipped" data-position="left" data-tooltip="Development"><i class="fas fa-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Site Build"><i class="far fa-file-code"></i></span>
+            <span class="tooltipped" data-position="left" data-tooltip="Design"><i class="fas fa-pencil-alt"></i></span>
+          </div> -->
+					<div class="portfolio-tags"> <span>Adobe XD</span>
+						<span>UX/UI</span>
+						<span>HTML & CSS</span>
+						<span class="made-for">Media 10 Ltd</span>
+					</div>
+					<button class="viewMoreBtn">View Project</button>
+				</div>
+				<!--end fig-caption-->
+				<figure class="float-left col-md-6 col-sm-12">
+					<img src="img/projects/west-kensington-design-district-project.jpg" />
+				</figure>
+			</a>
+			<!--end portoflio-link-->
+		</section>
+		<h3>Experience</h3>
+		<section id="about">
+			<!-- TIMELINE-->
+			<div class="aboutSlide scrollspy" id="about">
+				<!-- career timeline right and fixed about section on left?-->
+				<div class="timeline col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="timeline-item">
+						<div class="timeline-img"><i class="fas fa-code-branch"></i>
+						</div>
+						<div class="timeline-content js--fadeInLeft">
+							<h2>Re-Training</h2>
+							<div class="date">Feb 2017</div>
+							<p>Departed from my 3 year career in Television to begin re-training in Web Development. Started the Udacity Front-End Web Developer Nanodegree.</p>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-img"><i class="fas fa-building"></i>
+						</div>
+						<div class="timeline-content js--fadeInRight">
+							<h2>Media 10 Ltd</h2>
+							<div class="date">August 2017</div>
+							<p>5 months into my course I, proudly, landed my first job in Web Dev and joined Media 10 Ltd in Loughton as Junior Front-End Web Developer.</p>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-img"><i class="fas fa-trophy"></i>
+						</div>
+						<div class="timeline-content timeline-card js--fadeInLeft">
+							<div class="timeline-img-header" style="background:url('img/about/rising_star_award.JPG');">
+								<h2>Rising Star Award</h2>
+							</div>
+							<div class="date">Jan 2018</div>
+							<p>Proudly awarded the 'Rising Star' award; a yearly award as voted for by Media 10 employees and management for individuals with 'less than 12 months service at the company who stand out from the crowd and who you believe will be one of Media 10 stars in the future'.</p>
+						</div>
+					</div>
+					<div class="timeline-item">
+						<div class="timeline-img"><i class="fas fa-level-up-alt"></i>
+						</div>
+						<div class="timeline-content js--fadeInRight">
+							<h2>Promoted to Front End Developer</h2>
+							<div class="date">May 2018</div>
+							<p>Just 8 months into my time at Media 10 I dropped the Junior from my title and promoted to Front End Developer. I took on further responsibility into builds, larger scale projects such as entire site reskins, and worked closer with the studio and marketing departments.</p>
+						</div>
+					</div>
+				</div>
+				<!-- ABOUT ME-->
+				<div class="aboutMe col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" id="aboutMe">
+					<div id="bar-trigger" class="aboutContainer sidebarContainer">
+						<h3>2018 by the Numbers (so far)</h3>
+						<img src="img/about/rob.jpg" alt="Rob Hern" class="aboutImg" data-tilt />
+						<div class="aboutMeContainer">
+							<div class="statsContainer">
+								<div class="stat-Item"> <i class="svgIcon">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="38px" height="38px" viewBox="0 0 38 38" enable-background="new 0 0 38 38" xml:space="preserve">
+              <path fill="none" stroke="#1d1d1d" stroke-width="2" stroke-miterlimit="10" d="M0,15c0,0,11.563,0,13,0c3,0,2,3.25,2,9
+  C6.197,31.812,2,37,2,37h2.063c0,0,12.25-7.625,15.292-8S27,29,27,29v8h5 M38,13H23c0,0,0-5.451,0-6c0-1.657-1.344-3-3-3
+  c-1.657,0-3,1.343-3,3c0,0.549,0,2.451,0,3c0,2.836,1.043,3.903,4,5.306c1.469,0.696,2.25,1.525,2.25,2.694
+  c0,1.252-0.25,2.518-0.25,5.875c0,0,3.253,0.322,6.313,1.008c1.034,0.231,1.749,0.867,1.749,2.055c0,1.563-1,10.063-1,10.063"/>
+            </svg>
+          </i>
+									<!--as of wed 25th july am-->
+									<p class="number">28</p>
+									<p class="description">Hours of Yoga</p>
+									<p class="goal">Goal: 50</p>
+									<div class="progress-wrap">
+										<div class="progress-bar yoga"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+								<div class="stat-Item"> <i class="fas fa-book"></i>
+									<p class="number">1</p>
+									<p class="description">Books Read</p>
+									<p class="goal">Goal: 5</p>
+									<div class="progress-wrap">
+										<div class="progress-bar books"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+								<div class="stat-Item"> <i class="far fa-map"></i>
+									<p class="number">1</p>
+									<p class="description">New Cities Visited</p>
+									<p class="goal">Goal: 2</p>
+									<div class="progress-wrap">
+										<div class="progress-bar cities"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+								<div class="stat-Item"> <i class="fas fa-tv"></i>
+									<p class="number">2</p>
+									<p class="description">Netflix Originals Binged</p>
+									<p class="goal">Goal: 5</p>
+									<div class="progress-wrap">
+										<div class="progress-bar tv"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+								<div class="stat-Item"> <i class="far fa-file-code"></i>
+									<p class="number">2</p>
+									<p class="description">New Languages Learned</p>
+									<p class="goal">Goal: 3</p>
+									<div class="progress-wrap">
+										<div class="progress-bar lang"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+								<div class="stat-Item"> <i class="icons8-overwatch svgIcon"></i>
+									<p class="number">632</p>
+									<p class="description">Overwatch Level Attained</p>
+									<p class="goal">Goal: 750</p>
+									<div class="progress-wrap">
+										<div class="progress-bar ow"></div>
+									</div>
+								</div>
+								<!--end stat-Item-->
+							</div>
+						</div>
+					</div>
+		</section>
+		</section>
+		<!-- <section style="height:100vh;display:inline-block;width:100%;">
+	<div class="tiltElement" style="transform-style: preserve-3d;height:200px; width: 200px; background-color: #1d1d1d;" data-tilt>
+		<span class="innerTilt">Inner</span>
+	</div>
+</section> -->
+		</div>
+		<!--end containerflex-->
+		<section id="floating-action-button" class="closed FAB">
+			<nav class="contactMenu">
+				<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+				<label class="menu-open-button" for="menu-open"> <span class="lines line-1"></span>
+					<span class="lines line-2"></span>
+					<span class="lines line-3"></span>
+				</label>
+				<a href="index.html#homepage" class="menu-item"> <i class="fas fa-home"></i>
+				</a>
+				<a href="https://www.linkedin.com/in/roberthern/" target="_blank" class="menu-item"> <i class="fab fa-linkedin-in"></i> 
+				</a>
+				<a href="mailto:robertjhern@gmail.com" class="menu-item"> <i class="far fa-envelope"></i> 
+				</a>
+				<a href="http://github.com/robhern135" target="_blank" class="menu-item"> <i class="fab fa-github"></i> 
+				</a>
+				<a href="index.html#about" class="menu-item"> <i class="fas fa-user-circle"></i> 
+				</a>
+				<a href="index.html#portfolio" class="menu-item"> <i class="fas fa-file-code"></i> 
+				</a>
+			</nav>
+		</section>
+		<!--JQUERY-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- Compiled and minified Materialize JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+		<!--Rellax Parallax-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.6.2/rellax.min.js"></script>
+		<script type="text/javascript" src="script/tilt.js-master/src/tilt.jquery.js"></script>
+		<script type="text/javascript" src="script/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,104 @@
+.aboutMe {
+  color: $offblack;
+  text-align: center;
+  padding: 20px 0;
+  min-height:100vh;
+
+  &.fixedAbout {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
+
+.aboutImg {
+  max-width: 200px;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.aboutMeContainer h3 {
+  font-size: 1.8rem;
+}
+
+.statsContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.stat-Item {
+  width: 25%;
+  display: inline-block;
+  padding: 10px 5px;
+  p {
+    &.number {
+      font-size: 1.5rem;
+    }
+    &.description {}
+  }
+  i {
+    font-size: 40px;
+    padding: 5px;
+  }
+}
+
+.svgIcon img {
+  max-width: 50px;
+  padding: 5px;
+  color: $offblack;
+}
+
+.statsContainer svg:not(:root) {
+  vertical-align: middle;
+}
+
+/* PROGRESS BAR */
+
+.progress-wrap {
+  border: 1px solid black;
+  height: 5px;
+  background: white;
+  margin: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar {
+  background: $blue;
+  &.yoga {
+    width: 56%;
+  }
+  &.books {
+    width: 20%;
+  }
+  &.cities {
+    width: 50%;
+  }
+  &.tv {
+    width: 40%;
+  }
+  &.lang {
+    width: 66.66%;
+  }
+  &.ow {
+    width: 81.4%;
+  }
+}
+
+.icons8-overwatch:before {
+  vertical-align: middle;
+}
+
+// .timeline, .aboutMe {
+//   display: table-cell;
+//   height: 100%;
+//   float: none;
+// }
+
+.timeline-img {
+  &:hover {
+    transform: rotate(360deg);
+    transition: .5s .2s ease-in transform;
+  }
+  transition: .5s ease-out transform;
+}
