@@ -11,6 +11,7 @@
   $recipeproj: #3e5d99;
   $spotifyproj: #2AB858;
   $pixabayproj: #cdd58b;
+  $portsiteproj: #e6b549;
   $baconproj: #01bcd5;
 
 $linkcolors: #e31a4f, #01a7b7, #1d1d1d, #e6ae2a, #29ad29, #c05cc1;
@@ -325,6 +326,11 @@ span.made-for:before {
   background: $pixabayproj;
   color: white;
 }
+.portsite .portfolio-tags span,
+.portsite .portfolio-tags a {
+  background: $portsiteproj;
+  color: white;
+}
 .bacon .portfolio-tags span,
 .bacon .portfolio-tags a {
   background: $baconproj;
@@ -376,6 +382,9 @@ span.made-for:before {
 }
 .pixabay .port-title:before {
   color: $pixabayproj;
+}
+.portsite .port-title:before {
+  color: $portsiteproj;
 }
 .bacon .port-title:before {
   color: $baconproj;
@@ -460,6 +469,12 @@ span.made-for:before {
     border-color: $pixabayproj;
     &:after {
       background: $pixabayproj;
+    }
+  }
+  &.portsite .viewMoreBtn:hover {
+    border-color: $portsiteproj;
+    &:after {
+      background: $portsiteproj;
     }
   }
   &.bacon .viewMoreBtn:hover {
