@@ -7,6 +7,7 @@
   $tdhbrand: #d51457;
   $ukcwbrand: #eeb32b;
   $wkddbrand: #5f4a8b;
+  $lilbrand: #fd9f28;
   $offblack: #333;
   $recipeproj: #3e5d99;
   $spotifyproj: #2AB858;
@@ -336,6 +337,10 @@ span.made-for:before {
   background: $baconproj;
   color: white;
 }
+.island .portfolio-tags span {
+  background: $lilbrand;
+  color: white;
+}
 
 /* PORTFOLIO TITLE*/
 
@@ -373,6 +378,9 @@ span.made-for:before {
 }
 .wkdd .port-title:before {
   color: $wkddbrand;
+}
+.island .port-title:before {
+  color: $lilbrand;
 }
 .recipe .port-title:before {
   color: $recipeproj;
@@ -451,6 +459,12 @@ span.made-for:before {
     border-color: $wkddbrand;
     &:after {
       background: $wkddbrand;
+    }
+  }
+  &.island .viewMoreBtn:hover {
+    border-color: $lilbrand;
+    &:after {
+      background: $lilbrand;
     }
   }
   &.recipe .viewMoreBtn:hover {
@@ -776,6 +790,7 @@ $btncolors: #e6ae2a, #29ad29, #c05cc1, #e31a4f, #01a7b7;
 
 
 #work-items{
+  display:inline-block;
   .full-image,
   .double-image{
     padding: 25px 2%;
